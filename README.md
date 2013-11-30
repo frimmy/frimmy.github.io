@@ -16,4 +16,4 @@ Welcome to my user page where I post projects, notes, and helpful resources I've
     
 Feel free to send me a shout. Good or bad, I'd love to hear from you :D
 
-[Send me an email](adrian.frimpong@gmail.com)
+[Send me an email](mailto:adrian.frimpong@gmail.com?Subject=Hello from frimmy.github.io)
