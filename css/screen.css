@@ -1,0 +1,30 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 6, ../sass/screen.scss */
+body {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* line 10, ../sass/screen.scss */
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* line 14, ../sass/screen.scss */
+.starter-template img {
+  height: 165px;
+  display: inline;
+}
+
+/* line 19, ../sass/screen.scss */
+div#summary {
+  background: url(../images/gravitar.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
