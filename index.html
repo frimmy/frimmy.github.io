@@ -11,9 +11,8 @@
 
     <title>Frimmy's Github Projects</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
 
     <link rel="stylesheet" href="css/screen.css" media="screen, projection" type="text/css">
@@ -66,56 +65,147 @@
 
             </div>
         </div>
-        <section class="projects">
-            <div class="row">
-                <div class="col-md-4"><a href="http://frimmy.github.io/GoogleCloneProj/" alt="Google Clone">Google Clone</a>
+        <section name="skills">
+            <div class="section-content">
+                <div class="section-title">
+                    <h2>Skills</h1>
                 </div>
-                <div class="col-md-4"><a href="http://frimmy.github.io/37Signals/" alt="37Signals clone">37Signals Clone</a>
-                </div>
-                <div class="col-md-4"><a href="http://frimmy.github.io/DrawSomething/" alt="CSS3 animations">Animations with CSS3</a>
+                <div class="skills-bars">
+                    <ul>
+                        <li>
+                            <div class="progress progress-striped skills-bars">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="7" style="width: 70%;">
+                                    <span class="skill-description">Python, Flask, Unittest, Nose, TDD/BDD, OOP</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="progress progress-striped skills-bars">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                    <span class="skill-description">SQL, SQLite, SQLAlchemy</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress progress-striped skills-bars">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                    <span class="skill-description">JavaScript, jQuery, JSON</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress progress-striped skills-bars">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="skill-description">AJAX, 3rd Party APIs (Google Maps, Yelp, TMDb, etc)</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress progress-striped skills-bars">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                    <span class="skill-description">HTML(5), CSS(3), SASS, Compass</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress progress-striped skills-bars">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                    <span class="skill-description">UI/UX, Wireframing, Twitter Bootstrap, Foundation, Responsive Design</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="progress progress-striped skills-bars">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="skill-description">Windows, Powershell, Linux(Ubuntu), Bash, Heroku, Vagrant</span>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
                 </div>
             </div>
+        </section>
+        <section class="projects">
             <div class="row">
                 <div class="col-md-6"><a href="http://frimmy.github.io/Hot-Or-Cold/" alt="Hot Or Cold">Hot Or Cold</a>
                 </div>
                 <div class="col-md-6"><a href="http://frimmy.github.io/Shopping-List-Web-App/" alt="Shopping List">Shopping List(with AngularJS</a>
                 </div>
-                <!-- <div class="col-md-4"><a href="">this is a link</a></div> -->
-                <p><a class="btn btn-primary btn-lg" href="mailto:adrianfrimpong@gmail.com?Subject=Hello from frimmy.github.io" role="button">Send me a shout! </a>
 
 
-                </p>
+                <div id="myProjects" class="carousel slide row">
 
-            </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item">
+                            <div class="col-md-4"><a href="http://frimmy.github.io/GoogleCloneProj/" alt="Google Clone">Google Clone</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-md-4"><a href="http://frimmy.github.io/37Signals/" alt="37Signals clone">37Signals Clone</a>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="col-md-4"><a href="http://frimmy.github.io/DrawSomething/" alt="CSS3 animations">Animations with CSS3</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
         </section>
+        <div>
+            <a class="btn btn-primary btn-lg" href="mailto:adrianfrimpong@gmail.com?Subject=Hello from frimmy.github.io" role="button">Send me a shout! </a>
+        </div>
 
 
-    </div>
-    <!-- /.container -->
+        </div>
+        <!-- /.container -->
 
 
-    <!-- Bootstrap core JavaScript
+        <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-    <!-- Google analytics tracking -->
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 
-    ga('create', 'UA-23471322-1', 'adrianfrimpong.com');
-    ga('send', 'pageview');
-    </script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script>
+        // initialize the carousel
+        $(document).ready(function() {
+            $('.carousel').carousel();
+        });
+        </script>
+        <!-- Google analytics tracking -->
+        <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];`
+            x
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-23471322-1', 'frimmy.github.io');
+        ga('send', 'pageview');
+        </script>
 </body>
 
 </html>

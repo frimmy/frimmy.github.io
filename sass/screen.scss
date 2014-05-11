@@ -37,3 +37,30 @@ div#blurb {
     top: 50px;
     margin: 1%;
 }
+.section-title {
+    float: left;
+    margin:10px;
+}
+.section-content {
+    margin:10px;
+    min-height:400px;
+}
+.skill-description {
+    // float: left;
+}
+.skills-bars {
+    margin:5px;
+    clear: both;
+}
+li {
+    list-style:none;
+}
+.progress {
+    height: 20px;
+    margin:15px;
+    width: 80%;
+}
+
+.progress-bar {
+    background-color: #5cb85c;
+}

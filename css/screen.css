@@ -47,3 +47,38 @@ div#blurb {
   top: 50px;
   margin: 1%;
 }
+
+/* line 40, ../sass/screen.scss */
+.section-title {
+  float: left;
+  margin: 10px;
+}
+
+/* line 44, ../sass/screen.scss */
+.section-content {
+  margin: 10px;
+  min-height: 400px;
+}
+
+/* line 51, ../sass/screen.scss */
+.skills-bars {
+  margin: 5px;
+  clear: both;
+}
+
+/* line 55, ../sass/screen.scss */
+li {
+  list-style: none;
+}
+
+/* line 58, ../sass/screen.scss */
+.progress {
+  height: 20px;
+  margin: 15px;
+  width: 80%;
+}
+
+/* line 64, ../sass/screen.scss */
+.progress-bar {
+  background-color: #5cb85c;
+}
