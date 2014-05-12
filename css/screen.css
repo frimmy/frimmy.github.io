@@ -57,28 +57,62 @@ div#blurb {
 /* line 44, ../sass/screen.scss */
 .section-content {
   margin: 10px;
+  padding: 20px;
   min-height: 400px;
 }
 
-/* line 51, ../sass/screen.scss */
-.skills-bars {
+/* line 53, ../sass/screen.scss */
+.section-details {
   margin: 5px;
   clear: both;
 }
 
-/* line 55, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 li {
   list-style: none;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .progress {
   height: 20px;
   margin: 15px;
   width: 80%;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .progress-bar {
   background-color: #5cb85c;
+}
+
+/* line 68, ../sass/screen.scss */
+.thumbnail > img {
+  max-width: 100%;
+}
+
+/* line 71, ../sass/screen.scss */
+#find-me-pizza {
+  background-image: url("https://dmdf3fr77elxm.cloudfront.net/portfolio_assets/14920/pictures/1397633656/original.png?1397633656");
+}
+
+/* line 74, ../sass/screen.scss */
+#the-movie-db {
+  background-image: url("https://dmdf3fr77elxm.cloudfront.net/portfolio_assets/14921/pictures/1397633735/original.png?1397633735");
+}
+
+/* line 78, ../sass/screen.scss */
+#parks-quiz-app {
+  background-image: url("https://dmdf3fr77elxm.cloudfront.net/portfolio_assets/14919/pictures/1397633611/original.png?1397633611");
+}
+
+/* line 81, ../sass/screen.scss */
+.caption {
+  transition: all .5s ease;
+  opacity: 0;
+}
+
+/* line 85, ../sass/screen.scss */
+.caption:hover {
+  color: white;
+  background: rgba(98, 114, 114, 0.85);
+  opacity: 1.0;
 }
