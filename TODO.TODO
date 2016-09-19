@@ -1,9 +1,9 @@
 Personal Profile TODO:
-  ☐ Skills Section
-    ☐ Use bootstrap progress bars
-    ☐ Use mix-ins with Sass
-  ☐ Projects Carousel (Twitter Bootstrap vs Foundation)
-    ☐ use OOP JavaScript for projects, images, urls
-    ☐ GitHub API
+  +☐ Skills Section
+    +☐ Use bootstrap progress bars
+    +☐ Use mix-ins with Sass
+  +☐ Projects Carousel (Twitter Bootstrap vs Foundation)
+    +☐ use OOP JavaScript for projects, images, urls
+    +☐ GitHub API
   ☐ Add ReactJS component instead of Carousel, use OOP 
   ☐ Contact Me section; port over as a Flask app where users can send me an email from inside the browser.. 
