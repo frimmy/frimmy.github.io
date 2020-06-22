@@ -70,19 +70,9 @@ li {
 .thumbnail > img {
     max-width: 100%;
 }
-#find-me-pizza {
-    background-image: url('https://dmdf3fr77elxm.cloudfront.net/portfolio_assets/14920/pictures/1397633656/original.png?1397633656')
-}
-#the-movie-db {
-    background-image: url('https://dmdf3fr77elxm.cloudfront.net/portfolio_assets/14921/pictures/1397633735/original.png?1397633735')
-}
-
-#parks-quiz-app {
-    background-image: url('https://lh3.googleusercontent.com/d/1ZXv7GNIVsr_aSdhn2KSOEQq5liIA6JbD=s220?authuser=0')
-}
 .caption {
     transition: all .5s ease;
-    opacity: 0;
+    opacity: .7;
 }
 .caption:hover {
     color:white;
