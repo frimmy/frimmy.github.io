@@ -2,25 +2,23 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 6, ../sass/screen.scss */
 body {
   padding-top: 50px;
   text-align: center;
 }
 
-/* line 10, ../sass/screen.scss */
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+#frimmy-e-commerce {
+  background-image: url("https://res.cloudinary.com/frimmy/image/upload/v1594753685/Screen_Shot_2020-07-14_at_3.07.26_PM_ydcwbc.png");
 }
 
-/* line 14, ../sass/screen.scss */
-.starter-template img {
-  height: 165px;
-  display: inline;
+#the-movie-db {
+  background-image: url("https://res.cloudinary.com/frimmy/image/upload/v1594753685/Screen_Shot_2020-07-14_at_3.07.41_PM_pzmx4k.png");
 }
 
-/* line 18, ../sass/screen.scss */
+#parks-quiz-app {
+  background-image: url("https://res.cloudinary.com/frimmy/image/upload/v1594753685/Screen_Shot_2020-07-14_at_3.07.51_PM_qi3eyf.png");
+}
+
 #summary > div.section-content {
   background: url(../images/gravitar.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -30,7 +28,6 @@ body {
   height: 800px;
 }
 
-/* line 26, ../sass/screen.scss */
 #main {
   margin: 0;
   padding: 0;
@@ -38,7 +35,6 @@ body {
   height: 100%;
 }
 
-/* line 32, ../sass/screen.scss */
 div#blurb {
   width: 45%;
   float: right;
@@ -49,7 +45,6 @@ div#blurb {
   margin: 1%;
 }
 
-/* line 41, ../sass/screen.scss */
 .section-title {
   position: relative;
   top: 15px;
@@ -57,64 +52,45 @@ div#blurb {
   margin: 10px;
 }
 
-/* line 47, ../sass/screen.scss */
 .section-content {
   padding: 20px;
   height: 100%;
 }
 
-/* line 55, ../sass/screen.scss */
 .section-details {
   margin: 5px;
   clear: both;
 }
 
-/* line 59, ../sass/screen.scss */
 li {
   list-style: none;
 }
 
-/* line 62, ../sass/screen.scss */
 .progress {
   height: 20px;
   margin: 15px;
   width: 80%;
 }
 
-/* line 67, ../sass/screen.scss */
 .progress-bar {
   background-color: #5cb85c;
 }
 
-/* line 70, ../sass/screen.scss */
+.thumbnail {
+  background-size: contain;
+}
 .thumbnail > img {
   max-width: 100%;
 }
 
-/* line 73, ../sass/screen.scss */
-#find-me-pizza {
-  background-image: url("https://dmdf3fr77elxm.cloudfront.net/portfolio_assets/14920/pictures/1397633656/original.png?1397633656");
-}
-
-/* line 76, ../sass/screen.scss */
-#the-movie-db {
-  background-image: url("https://dmdf3fr77elxm.cloudfront.net/portfolio_assets/14921/pictures/1397633735/original.png?1397633735");
-}
-
-/* line 80, ../sass/screen.scss */
-#parks-quiz-app {
-  background-image: url("https://dmdf3fr77elxm.cloudfront.net/portfolio_assets/14919/pictures/1397633611/original.png?1397633611");
-}
-
-/* line 83, ../sass/screen.scss */
 .caption {
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   opacity: 0;
 }
-
-/* line 87, ../sass/screen.scss */
 .caption:hover {
   color: white;
   background: rgba(98, 114, 114, 0.85);
-  opacity: 1.0;
+  opacity: 1;
 }
+
+/*# sourceMappingURL=screen.css.map */

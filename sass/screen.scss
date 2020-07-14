@@ -7,14 +7,18 @@
     padding-top: 50px;
     text-align: center;
 }
-.starter-template {
-    padding: 40px 15px;
-    text-align: center;
+
+#frimmy-e-commerce {
+    background-image: url('https://res.cloudinary.com/frimmy/image/upload/v1594753685/Screen_Shot_2020-07-14_at_3.07.26_PM_ydcwbc.png')
 }
-.starter-template img {
-    height:165px;
-    display: inline;
+#the-movie-db {
+    background-image: url('https://res.cloudinary.com/frimmy/image/upload/v1594753685/Screen_Shot_2020-07-14_at_3.07.41_PM_pzmx4k.png')
 }
+
+#parks-quiz-app {
+    background-image: url('https://res.cloudinary.com/frimmy/image/upload/v1594753685/Screen_Shot_2020-07-14_at_3.07.51_PM_qi3eyf.png')
+}
+
 #summary>div.section-content {
     background: url(../images/gravitar.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -49,9 +53,7 @@ div#blurb {
     height:100%;
 
 }
-.skill-description {
-    // float: left;
-}
+
 .section-details {
     margin:5px;
     clear: both;
@@ -67,15 +69,18 @@ li {
 .progress-bar {
     background-color: #5cb85c;
 }
-.thumbnail > img {
-    max-width: 100%;
+.thumbnail {
+    background-size: contain;
+    > img {
+        max-width: 100%;
+    }
 }
 .caption {
     transition: all .5s ease;
-    opacity: .7;
-}
-.caption:hover {
-    color:white;
-    background: rgba(#627272, 0.85);
-    opacity: 1.0;   
+    opacity: 0;
+    &:hover {
+        color:white;
+        background: rgba(#627272, 0.85);
+        opacity: 1.0;
+    }
 }
